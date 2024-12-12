@@ -196,7 +196,7 @@ body {
 .story-text span {
    display: block;
    font-weight: 400;
-   opacity: 0.5;
+   color: rgba(255, 255, 255, 0.4);
    font-size: 1.6rem;
    margin-bottom: 50px;
 }
@@ -210,6 +210,7 @@ body {
 }
 
 .story-text p {
+   font-weight: 300;
    font-size: 2rem;
    margin-bottom: 30px;
 }
