@@ -214,6 +214,10 @@ body {
    margin-bottom: 50px;
 }
 
+.story-text b {
+   font-weight: 600;
+}
+
 .story-text h2 {
    color: var(--yellow);
    font-family: var(--sub-font);
