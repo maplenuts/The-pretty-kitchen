@@ -416,9 +416,7 @@ body {
 
 .menuBtn li {
    display: block;
-   width: 100px;
-   height: 42px;
-   line-height: 38px;
+   padding: 8px 24px;
    border-radius: 100px;
    border: 1px solid rgba(255, 255, 255, 0.4);
    text-align: center;
@@ -539,9 +537,7 @@ body {
 
 .franBtn li {
    display: block;
-   width: 100px;
-   height: 42px;
-   line-height: 40px;
+   padding: 8px 24px;
    border-radius: 100px;
    border: 1px solid rgba(255, 255, 255, 0.4);
    text-align: center;
