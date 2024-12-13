@@ -612,6 +612,19 @@ body {
    color: #111;
 }
 
+#footer {
+   height: 100px;
+   color: #fff;
+}
+
+#footer p {
+   font-weight: 300;
+   line-height: 100px;
+   text-align: center;
+   opacity: 0.5;
+}
+
+
 @media (min-width: 375px) and (max-width: 850px) {
    #franchise h2 {
       margin-top: 100px;
@@ -636,24 +649,14 @@ body {
       width: 100%;
       font-size: 1.5rem;
    }
+   #footer p {
+      font-size: 1.4rem;
+   }
 }
-
-#footer {
-   height: 100px;
-   color: #fff;
-}
-
-#footer p {
-   font-weight: 300;
-   line-height: 100px;
-   text-align: center;
-   opacity: 0.5;
-}
-
 
 .bg {
    width: 100%;
-   height: 100vh;
+   height: 100%;
    position: fixed;
    top: 0;
    left: 0;
