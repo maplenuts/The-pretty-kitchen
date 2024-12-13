@@ -484,6 +484,7 @@ body {
 
    .menuBtn li {
       font-size: 1.4rem;
+      line-height: 38px;
    }
 
    .menuName {
