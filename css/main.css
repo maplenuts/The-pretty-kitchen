@@ -433,7 +433,7 @@ body {
 .swiper-wrapper {
    display: flex;
    justify-content: flex-start;
-   align-items: center;
+   align-items: top;
    transition-timing-function: linear;
 }
 
