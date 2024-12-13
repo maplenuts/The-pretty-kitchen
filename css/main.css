@@ -473,18 +473,23 @@ body {
    #menu {
       padding: 100px 0;
    }
+
    .swiper-slide img {
       border-radius: 16px;
    }
+
    .menuBtn {
       gap: 16px;
    }
+
    .menuBtn li {
       font-size: 1.4rem;
    }
+
    .menuName {
       font-size: 1.8rem;
    }
+
    .price {
       font-size: 1.4rem;
    }
@@ -629,26 +634,38 @@ body {
    #franchise h2 {
       margin-top: 100px;
    }
+
    .franBtn {
       gap: 16px;
    }
+
+   .franBtn li {
+      font-size: 1.4rem;
+   }
+
    .franInfo img {
       width: 70vw;
       height: 300px;
       object-fit: cover;
       margin: 0;
    }
+
    .infoBox {
       width: 70vw;
       margin-top: 30px;
    }
-   .adress::before, .time::before, .tel::before {
+
+   .adress::before,
+   .time::before,
+   .tel::before {
       font-size: 1.4rem;
    }
+
    .infoBox a {
       width: 100%;
       font-size: 1.5rem;
    }
+
    #footer p {
       font-size: 1.4rem;
    }
