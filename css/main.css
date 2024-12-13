@@ -229,7 +229,7 @@ body {
 
 @media (min-width: 375px) and (max-width: 768px) {
    #story {
-      height: 940px;
+      height: 1080px;
    }
 
    #story img {
@@ -247,11 +247,11 @@ body {
    }
 
    .story-text h2 {
-      font-size: 3rem;
+      font-size: 2.4rem;
    }
 
    .story-text p {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
    }
 }
 
@@ -479,6 +479,9 @@ body {
    .menuBtn {
       gap: 16px;
    }
+   .menuBtn li {
+      font-size: 1.4rem;
+   }
    .menuName {
       font-size: 1.8rem;
    }
@@ -626,8 +629,13 @@ body {
       width: 70vw;
       margin-top: 30px;
    }
-
-
+   .adress::before, .time::before, .tel::before {
+      font-size: 1.4rem;
+   }
+   .infoBox a {
+      width: 100%;
+      font-size: 1.5rem;
+   }
 }
 
 #footer {
