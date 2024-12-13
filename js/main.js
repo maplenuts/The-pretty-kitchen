@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
   var menuSoup = new Swiper(".menuSoup", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -16,10 +16,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   var menuMain = new Swiper(".menuMain", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -33,10 +45,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   var menuFry = new Swiper(".menuFry", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -50,10 +74,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   var menuFood = new Swiper(".menuFood", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -67,10 +103,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   var menuSide = new Swiper(".menuSide", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -84,10 +132,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   var menuAlcohol = new Swiper(".menuAlcohol", {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 20,
     mousewheel: false,
     freeMode: true,
@@ -101,6 +161,18 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      // 768px 이상에서는 3개의 슬라이드를 보여줌
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      // 1024px 이상에서는 5개의 슬라이드를 보여줌
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
 
   $('.menuSoup').show().siblings().hide();
